@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 
 import hashlib
 
-url = 'http://134.122.109.72:31130'
+url = 'http://134.122.109.72:31130' #Dependent on the IP and Port of the site given by HackTheBox
 driver = webdriver.Firefox(firefox_binary="/usr/bin/firefox-esr")
 driver.get(url)
 
